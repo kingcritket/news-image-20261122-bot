@@ -118,8 +118,12 @@ the full day as verified by then. The deadline is 24 Nov 00:00 UTC.
 
 ```sh
 python3 main.py          # rebuilds entry.png and verifies it (1024x1024)
-python3 build_entry.py   # same render, prints the layout report
 ```
+
+`main.py` is fully self-contained (story data + layout engine in one
+file, no local imports) and writes `entry.png` to `$MAKEFUN_OUTPUT_DIR`
+when set, else to its own directory — so it also runs under the
+grader's `python3 -P -s` safe-path mode on a read-only mount.
 
 Both need only Python 3 + Pillow. The build is fully typographic —
 no photos, no network, no randomness, no clock: two runs produce
@@ -128,8 +132,8 @@ and are not used by this build.)
 
 ## Files
 
-- `build_entry.py` — story data + PIL layout engine; draws `entry.png`
-- `main.py` — entrypoint: rebuilds `entry.png` and verifies size/format
+- `main.py` — self-contained entrypoint: story data + PIL layout
+  engine; draws `entry.png` and verifies size/format
 - `entry.png` — the entry image (1024×1024 PNG)
 - `assets/` — v1's AI-generated scene photos (unused in v3)
 - `LICENSE` — MIT (from the competition starter kit)

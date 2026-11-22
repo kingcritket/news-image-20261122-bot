@@ -11,6 +11,22 @@ in full (authorship hygiene, per the entry-checks skill).
 - Deterministic: two consecutive runs produced the identical hash.
 - `main.py` smoke-tested: rebuilds the PNG and verifies size/format.
 
+## Packaging fix (post-intake, same evening)
+
+The v3 submission passed kit check but was rejected at intake on
+`run_completes`: the grader runs `python3 -P -s /bot/main.py`, and
+the old `main.py` was a thin wrapper importing a sibling module —
+under `-P` (safe path) the script's directory is not on `sys.path`,
+so the import died; it also wrote into the repo dir, ignoring
+`MAKEFUN_OUTPUT_DIR`, while the grader mounts `/bot` read-only.
+Fix: `main.py` is now one self-contained file (stdlib + PIL only,
+no local imports) and writes `entry.png` to `$MAKEFUN_OUTPUT_DIR`
+when set, falling back to the script's directory. Verified with the
+grader's exact shape — read-only copy, `MAKEFUN_OUTPUT_DIR` pointed
+at a scratch dir, `python3 -P -s <copy>/main.py` → exit 0 and the
+PNG in the output dir byte-identical (sha256 unchanged, above).
+`build_entry.py` was removed; the render itself is untouched.
+
 ## Concept
 
 Same Sunlit Crime-Noir identity as v2 (user brief #2): sun-bleached
