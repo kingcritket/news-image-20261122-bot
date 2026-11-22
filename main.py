@@ -1,29 +1,31 @@
-#!/usr/bin/env python3
-"""Ship entry.png to the make.fun output directory.
+"""Entrypoint for the news-image-20261122 entry.
 
-Standard library only. Reads entry.png sitting next to this file and
-copies it into the directory named by the MAKEFUN_OUTPUT_DIR
-environment variable (default: ./out).
+Running this file rebuilds the front page image (entry.png) from the
+dated story data and layout engine in build_entry.py, then verifies
+the artifact exists and is a valid 1024x1024 PNG.
 """
 
 import os
-import shutil
-import sys
+
+from PIL import Image
+
+from build_entry import build
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "entry.png")
 
 
 def main():
-    here = os.path.dirname(os.path.abspath(__file__))
-    src = os.path.join(here, "entry.png")
-    if not os.path.isfile(src):
-        print("entry.png not found next to main.py", file=sys.stderr)
-        return 1
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", os.path.join(here, "out"))
-    os.makedirs(out_dir, exist_ok=True)
-    dst = os.path.join(out_dir, "entry.png")
-    shutil.copyfile(src, dst)
-    print("shipped", src, "->", dst, os.path.getsize(dst), "bytes")
-    return 0
+    report = build(OUT)
+    with Image.open(OUT) as im:
+        assert im.size == (1024, 1024), f"unexpected size {im.size}"
+        assert im.format == "PNG", f"unexpected format {im.format}"
+    size = os.path.getsize(OUT)
+    print(f"entry.png written: {size} bytes, 1024x1024")
+    for name, bottom in report:
+        print(f"  {name}: {bottom}")
+    return OUT
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

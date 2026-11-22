@@ -9,116 +9,129 @@
 [![1st place $20](https://img.shields.io/badge/1st%20place-%2420-gold)](https://make.fun/c/news-image-20261122)
 
 One image summing up the world's news of **Sunday 22 November 2026**:
-41 dated stories across 7 regions, drawn as a sunlit front page
+42 dated stories across 7 regions, drawn as a sunlit front page
 (warm sand paper, charcoal masthead, vivid red accent, hard diagonal
 shadow — the "Sunlit Crime-Noir" editorial identity).
 
-**V2 refresh (built ~12:00 WIB, 22 Nov):** the page was rebuilt from
-scratch around the day's developments — the COP31 endgame in Antalya
-as the lead, Hong Kong's election day, the Banten factory-fire search
-and 38 further stories verified against 22 November reporting. The
-code was rewritten in full for this version; nothing was patched.
+**V3 full-day edition (built ~20:00 WIB, 22 Nov):** the page was
+rebuilt from scratch once the day was complete. The lead is no
+longer the COP31 *endgame* but its outcome — the Antalya summit
+collapsed without a deal. The Las Vegas Grand Prix is carried as a
+result (Verstappen, by 0.639s), Hong Kong's turnout is the final
+record figure (98.79%, not the midday 69.61%), and the Cikande
+search is updated to Sunday's recovery operation. The code was
+rewritten in full for this version; nothing was patched.
 
 ![entry.png](entry.png)
 
 ## The day in brief
 
-**Lead — COP31 on the brink.** Two days past its deadline, the
-Antalya summit's presidency tabled a new package at dawn on Sunday:
-fossil-fuel wording stripped out, an approval session set for
-0600 GMT, nearly 200 parties asked to consent — and the EU warning
-it would rather walk away than sign a weak deal.
+**Lead — no deal in Antalya.** The longest climate summit ever
+ended in failure on Sunday: after two days of overtime, the EU
+formally objected to a ten-page dawn text that never mentions
+fossil fuels, and COP31 president Murat Kurum conceded at the
+closing plenary that there was no consensus. First failed COP
+since Copenhagen 2009.
 
-**Hong Kong votes.** Polls ran 9:00–18:00 for the Election Committee
-subsector elections: 856 candidates contesting 723 seats on the
-1,500-member body that picks the Chief Executive; official turnout
-stood at 69.61% by 11:00.
+**Verstappen wins Vegas.** From pole, Max Verstappen took the
+Las Vegas Grand Prix by 0.639s over Lando Norris — his 75th career
+win — after 35 lead changes; Oscar Piastri stormed from 17th to
+third. Champion Kimi Antonelli leads on 402 points to Verstappen's
+304; the fight for second rolls to Qatar.
 
-**Banten search.** Indonesian rescuers searched on Sunday for 36
-workers missing after a fire at a Cikande candy factory killed 3
-and injured 4; 15 people survived the Saturday-evening blaze.
+**Hong Kong record.** Election Committee subsector polls closed
+with a record 98.79% turnout — 5,640 of 5,709 electors — for the
+723 seats on the body that picks the Chief Executive.
 
-## All 41 stories (with sources)
+**Cikande search.** Rescuers recovered six bodies from the
+Fonusa Agung Mulia candy factory in Banten and kept searching for
+36 workers; the fire was declared out at dawn and police DVI
+forensic teams began identifying the dead. Casualty counts remain
+provisional.
+
+## All 42 stories (with sources)
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | COP31: presidency tables new package at dawn; fossil-fuel wording stripped; approval session 0600 GMT; EU would rather leave than sign weak deal | Reuters via LA Post, 22 Nov; China Daily Asia, 22 Nov |
-| 2 | Zelenskyy: upcoming four-nation peace talks should deliver meaningful progress | Wire roundup, 22 Nov |
-| 3 | States agree at UN talks to create an international pact on autonomous weapons | Wire roundup, 22 Nov |
-| 4 | APEC wrap: US–China trade, Taiwan and tech tensions unresolved | World Online, 22 Nov |
-| 5 | FBI crime-records database hit by reported cyber breach; Trump floats a "positive spin" | Wire reports, 22 Nov |
-| 6 | Panama vows to block any COP31 deal without fossil-fuel language | Stories of Record, 22 Nov 00:11 UTC |
-| 7 | Melania Trump voices desire for a Ukraine–Russia ceasefire before Christmas | Wire roundup, 22 Nov |
-| 8 | Two tankers struck near Oman's Khasab as Hormuz attacks widen | UKMTO via wires, 22 Nov |
-| 9 | Iran prepares oil-tanker convoy to break the US naval blockade | World Online, 22 Nov |
-| 10 | Iraqi forces take over checkpoints in a Kataib Hezbollah stronghold | World Online, 22 Nov |
-| 11 | Syria says it intercepted a weapons shipment bound for Lebanon | Wire roundup, 22 Nov |
-| 12 | 129 bodies retrieved from wreckage in central Gaza | Wire reports, 22 Nov |
-| 13 | Hong Kong Election Committee subsector elections: 856 candidates, 723 seats, turnout 69.61% by 11:00 | China Daily Asia; info.gov.hk, 22 Nov |
-| 14 | Indonesia: rescuers search for 36 missing after Banten factory fire kills 3 | Reuters, Jakarta, 22 Nov |
-| 15 | BMKG forecasts heavy to very heavy rain across eight provinces today; cyclone seed 96S | BMKG via Jawawa, 22 Nov 08:00 WIB |
-| 16 | Pakistan: ruling PML-N advocates referendum on new provinces; partner PPP objects | Wire roundup, 22 Nov |
-| 17 | Jakarta provincial government to begin revitalising the Kunstkring monument | Jawawa archive, 22 Nov |
-| 18 | PAM JAYA partners China's SWEG to develop water-management technology | Jawawa archive, 22 Nov |
-| 19 | Ghana unveils "Heritage Series" banknotes honouring Nkrumah, Kofi Annan and Makola traders | C54 News, 22 Nov |
-| 20 | Al-Shabaab claims hundreds dead in ambush on Somali troops (claim unverified) | C54 News, 22 Nov |
-| 21 | Kenya discharges its last Ebola patient; DR Congo death toll surpasses 5,300 | C54 News, 22 Nov |
-| 22 | Sahel states restart dialogue with the West Africa bloc | C54 News, 22 Nov |
-| 23 | Norway's supreme court rules climate-disputed oil licences invalid | C54 News, 22 Nov |
-| 24 | EU launches search for a new ECB chief as Christine Lagarde resigns | C54 News, 22 Nov |
-| 25 | EU puts forward a digital tax to finance its budget; Germany and France at odds | Wire roundup, 22 Nov |
-| 26 | Denmark wants EU-wide limits on tourists from Russia after an alleged murder plot | Wire roundup, 22 Nov |
-| 27 | People rally in Zagreb demanding accountability over a psychiatric-hospital incident | Wire roundup, 22 Nov |
-| 28 | EU governments denounce Russian air breach and pledge Poland support | Wire roundup, 22 Nov |
-| 29 | Las Vegas GP race day (04:00 UTC): Antonelli fastest in qualifying but a grid penalty hands pole to Verstappen | FIA / Formula 1 |
-| 30 | ATP Finals, Turin: Zverev v Alcaraz title match today, not before 18:00 CET | ATP Tour, 22 Nov |
-| 31 | Cricket: Rahul and Pant centuries lift India to 720/9 in the New Zealand Test | World Online sports, 22 Nov |
-| 32 | Cricket: Australia bowl first as injured Smith misses the South Africa decider | C54 News, 22 Nov |
-| 33 | Refugee-born South Sudanese model Awar Odhiang named model of the year | C54 News, 22 Nov |
-| 34 | Anthropic's record IPO collides with tech's worst week since 2020 | World Online, 22 Nov |
-| 35 | Nvidia's finances are the subject of a US SEC inquiry, sources report | Wire roundup, 22 Nov |
-| 36 | Bitcoin rises over 2% to more than $60,000 | World Online business, 22 Nov |
-| 37 | Silver rates slide in India after a sharp bullion-market crash | World Online business, 22 Nov |
-| 38 | US lawmakers advocate a ban on Chinese-made AI models in federal systems | Wire roundup, 22 Nov |
-| 39 | Kenya secures 293,600 job opportunities in Saudi Arabia; worker protections questioned | C54 News, 22 Nov |
-| 40 | South Korea repeats a $75,000 reward for reporting academic dishonesty | Wire roundup, 22 Nov |
-| 41 | Américo Ramos reappointed Prime Minister of São Tomé and Príncipe | C54 News, 22 Nov |
+| 1 | COP31 collapses: closing plenary adopts nothing; Kurum concedes no consensus | Reuters, 22 Nov (via Sowetan / Mix 92.9) |
+| 2 | EU formally objects to the Antalya pact — "does not even mention fossil fuels" | COP31 live coverage, 22 Nov |
+| 3 | The dawn text: 35-by-35 electrification, 1 Gt carbon capture, fossil words stripped | The Curtain; CarrZee Sustain, 22 Nov |
+| 4 | First failed COP since Copenhagen 2009; Article 6 decisions survive | Reuters; CarrZee Sustain, 22 Nov |
+| 5 | Estonia to close its Russian border as Moscow threatens a response | Headline roundup (WaPo), 22 Nov |
+| 6 | Denmark expels a Russian attaché over an alleged plot | OneTurn News, 22 Nov |
+| 7 | Christine Lagarde to step down as ECB president in February 2027 | The Munich Eye listing, 22 Nov |
+| 8 | Spain to expand the banking tax to fund housing policies | Wire feed, 22 Nov |
+| 9 | Finland reimposes flight restrictions over the Gulf of Finland | Wire feed, 22 Nov |
+| 10 | Norway fells the 69-foot Trafalgar Square Christmas tree outside Oslo | UBStandard, 22 Nov |
+| 11 | Iran's Guards claim two US Patriot systems disabled in Bahrain | Wire feed, 22 Nov |
+| 12 | Bahrain says an Iranian strike hit civilian property; Tehran parades launchers | OneTurn News; AP world feed, 22 Nov |
+| 13 | UAE shuttles oil past Iran in a risky Hormuz operation | Headline roundup (WaPo), 22 Nov |
+| 14 | At least four killed in Israeli bombardment of Gaza City amid the truce | Wire feed, 22 Nov |
+| 15 | Settler attacks at four West Bank sites; Israeli opposition leader brands them "terrorism" | AP world feed; wire feed, 22 Nov |
+| 16 | Lebanon's Aoun: Israel and Iran are the two hurdles to sovereignty | Wire feed, 22 Nov |
+| 17 | Turkish intelligence chief meets a Hamas delegation in Istanbul | Wire feed, 22 Nov |
+| 18 | Hong Kong EC elections: record 98.79% turnout, 5,640 of 5,709 ballots | info.gov.hk; China Daily Asia, 22 Nov |
+| 19 | Taiwan warns Canada's Carney that deeper China ties come with risks | AP world feed, 22 Nov |
+| 20 | Philippines: Mount Mayon eruption raises fears of a larger event | The Munich Eye listing, 22 Nov |
+| 21 | Rohingya welcome the UN court's genocide verdict — and want to go home | Headline roundup, 22 Nov |
+| 22 | Japan's self-flying air taxi carries passengers with no pilot aboard | Wire feed, 22 Nov |
+| 23 | Hegseth secret memo restricts the US–Canada defence relationship | Washington Post, 22 Nov |
+| 24 | Watchdog officials find a "catastrophic failure" cascade in ICE training | Headline roundup, 22 Nov |
+| 25 | FBI probes a possible breach of the national crime-data repository | Wire feed, 22 Nov |
+| 26 | Trump orders contractors to report congressional requests | OneTurn News, 22 Nov |
+| 27 | US open to a Latin American UN secretary-general, Waltz says amid gridlock | Wire feed, 22 Nov |
+| 28 | El Salvador's Bukele seeks a third term while fighting gangs in Haiti | AP world feed, 22 Nov |
+| 29 | Cikande: six bodies recovered; 36 workers still sought (provisional) | SAR Banten reports, 22 Nov |
+| 30 | Cikande: fire declared out at dawn after 16 hours; DVI identification begins | Kompas TV / Liputan6 reports, 22 Nov |
+| 31 | BMKG siaga: heavy-rain alert for eight provinces; cyclone seed 96S | BMKG via BeritaPrioritas / Informasi, 22 Nov |
+| 32 | Bitcoin holds above $60,000 in Sunday trading | Market snapshot, 22 Nov |
+| 33 | Brent crude at $89.95 in Sunday's market snapshot | Market snapshot, 22 Nov |
+| 34 | EU and Canada plan enhanced collaboration on artificial intelligence | The Munich Eye listing, 22 Nov |
+| 35 | Wildberries chief executive leaves days after EU sanctions | Wire feed, 22 Nov |
+| 36 | F1: Verstappen wins the Las Vegas GP from pole by 0.639s — 75th career win | RaceFans; PlanetF1; FIA classification, 22 Nov |
+| 37 | F1: Piastri storms from 17th on the grid to the podium | RNT Motorsports, 22 Nov |
+| 38 | F1 standings: Antonelli 402, Verstappen 304 — P2 fight rolls to Qatar | RaceFans, 22 Nov |
+| 39 | ATP Finals, Turin: Zverev v Alcaraz title match tonight, 18:00 CET | Flashscore; Tennis Majors, 22 Nov |
+| 40 | Nigeria: at least 24 dead as a boat carrying mourners to a funeral capsizes | AP world feed, 22 Nov |
+| 41 | Paolo Bulgari, who took the family jewellers global, dies at 89 | AP world feed, 22 Nov |
+| 42 | Phumzile Mlambo-Ngcuka, former SA deputy president and UN Women chief, dies at 71 | AP world feed, 22 Nov |
 
 ### Date discipline
 
 Every story above happened, or was first reported, on 22 November
-2026 in some time zone — checked item by item against the reporting,
-not just the publication date. Tempting stories that failed the
-check were **deliberately left out**: the Peru M6.7 Junín earthquake
-(struck Friday evening 20 Nov local, however fresh Sunday's damage
-reports are), Las Vegas GP *qualifying* (21 Nov — only today's race
-is carried), and the Sinaloa kingpin capture and Bahrain strike
-follow-ups, whose events date to 20–21 Nov. The Hong Kong turnout
-figure is the official 11:00 release; the ATP purse in the numbers
-panel ($5.17M) is the tournament's stated undefeated-champion figure.
+2026 — checked item by item against the event date, not just the
+publication date. Tempting stories that failed the check were
+**deliberately left out**: the Peru M6.7 earthquake (Friday 20 Nov
+local), Las Vegas GP *qualifying* (21 Nov — only the race, run
+Sunday WIB, is carried), the Sinaloa kingpin capture (20–21 Nov),
+and the EU–Indonesia CEPA signing (Saturday 21 Nov in Brussels,
+however prominent Sunday's coverage was). The Cikande fire began
+on Saturday evening; only Sunday's search, recovery and
+identification operation is carried, and its casualty counts are
+labelled provisional. The ATP Finals item is tonight's scheduled
+final — no result is claimed for a match not yet played.
 
-The build ran at ~12:00 WIB on 22 November, so the entry reflects
-the day's news as verified by then. The deadline is 24 Nov 00:00 UTC.
+The build ran at ~20:00 WIB on 22 November, so the entry reflects
+the full day as verified by then. The deadline is 24 Nov 00:00 UTC.
 
 ## How to run
 
 ```sh
-python3 build_entry.py   # writes entry.png (1024x1024, < 1 MiB)
-MAKEFUN_OUTPUT_DIR=out python3 main.py   # copies entry.png to out/
+python3 main.py          # rebuilds entry.png and verifies it (1024x1024)
+python3 build_entry.py   # same render, prints the layout report
 ```
 
-`build_entry.py` needs only Python 3 + Pillow. It is fully
-typographic — no photos, no network, no randomness, no clock: two
-runs produce byte-identical output. `main.py` uses only the
-standard library. (The `assets/` photos are left over from v1 and
-are not used by the v2 build.)
+Both need only Python 3 + Pillow. The build is fully typographic —
+no photos, no network, no randomness, no clock: two runs produce
+byte-identical output. (The `assets/` photos are left over from v1
+and are not used by this build.)
 
 ## Files
 
-- `build_entry.py` — draws `entry.png` with PIL (Liberation Sans)
-- `main.py` — ships `entry.png` to the make.fun output directory
+- `build_entry.py` — story data + PIL layout engine; draws `entry.png`
+- `main.py` — entrypoint: rebuilds `entry.png` and verifies size/format
 - `entry.png` — the entry image (1024×1024 PNG)
-- `assets/` — v1's AI-generated scene photos (unused in v2)
+- `assets/` — v1's AI-generated scene photos (unused in v3)
 - `LICENSE` — MIT (from the competition starter kit)
 
 ## Competition
