@@ -27,6 +27,56 @@ at a scratch dir, `python3 -P -s <copy>/main.py` → exit 0 and the
 PNG in the output dir byte-identical (sha256 unchanged, above).
 `build_entry.py` was removed; the render itself is untouched.
 
+## Grader exit-1: root cause and final fix (round 5)
+
+Round 4's self-contained renderer STILL failed intake with exit 1,
+so the failure was reproduced locally under a faithful sandbox:
+read-only repo copy, foreign cwd, uid 65534, empty environment,
+`MAKEFUN_OUTPUT_DIR` scratch dir, `systemd-run` scope with
+MemoryMax=512M / MemorySwapMax=0, `taskset -c 0`, and the grader's
+exact invocation `python3 -P -s <copy>/main.py`. Under those
+constraints the renderer PASSED locally (exit 0, 0.33 s, PNG
+byte-identical) — memory, permissions, cwd and runtime exonerated.
+The remaining deltas were host resources this VM has and a bare
+pinned python:3.13 grader image does not. Both were reproduced:
+
+1. **Liberation fonts absent** (empty dir bind-mounted over
+   /usr/share/fonts/truetype/liberation) → exit 1:
+   `OSError: cannot open resource` from
+   `ImageFont.truetype("/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf", 13)`
+   at the first font load in `build()`.
+2. **Pillow absent** (clean venv interpreter) → exit 1:
+   `ModuleNotFoundError: No module named 'PIL'` at the module-level
+   `from PIL import Image, ImageDraw, ImageFont`.
+
+Either one alone kills a render-in-sandbox entrypoint; the grader
+never shows stderr, so both present as the same bare exit 1.
+
+**Root cause:** round 4 fixed the packaging (safe-path imports,
+read-only mount, output dir) but kept the render-in-sandbox design,
+which depends on Pillow and on host font files at absolute system
+paths. The scored v2 entry never rendered in the sandbox at all —
+its `main.py` was a standard-library-only shipper copying the
+committed `entry.png` into `$MAKEFUN_OUTPUT_DIR`, which is why it
+passed in the same grader.
+
+**Fix:** `main.py` rewritten (whole file) as a stdlib-only shipper
+on the v2 mechanism: locate the committed `entry.png` via
+`__file__`, sanity-check its PNG signature and IHDR dimensions
+(1024×1024) with a hand-rolled header read, copy it into
+`$MAKEFUN_OUTPUT_DIR` (fallback: `out/` next to the script), and
+verify the copy's size before exiting 0. No third-party imports,
+no fonts, no rendering — nothing host-dependent remains. The full
+renderer survives in git history (commit de786b9's `main.py`) for
+future build-time use.
+
+**Verification of the fix** (same faithful sandbox as above):
+exit 0 in 63 ms, output sha256 unchanged
+(`16e9f6e1…a46`). Repeated under the hostile variant — Liberation
+fonts hidden AND the no-Pillow venv interpreter, all other
+constraints still applied: exit 0 in 51 ms, sha256 unchanged.
+`entry.png` itself is untouched by this fix.
+
 ## Concept
 
 Same Sunlit Crime-Noir identity as v2 (user brief #2): sun-bleached
