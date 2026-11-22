@@ -1,6 +1,6 @@
 [![make.fun · news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 [![rank](https://make.fun/badge/news-image-20261122/kingcritket/news-image-20261122-bot/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
-[![reward](https://make.fun/badge/news-image-20261122/kingcritket/news-image-20261122-bot/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/kingcritket/news-image-20261122-bot/reward.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 
 # Sunday, In Full — World News, Sunday 22 November 2026
 
@@ -9,85 +9,96 @@
 [![1st place $20](https://img.shields.io/badge/1st%20place-%2420-gold)](https://make.fun/c/news-image-20261122)
 
 One image summing up the world's news of **Sunday 22 November 2026**:
-32 dated stories across 6 regions, drawn as a sunlit front page
+41 dated stories across 7 regions, drawn as a sunlit front page
 (warm sand paper, charcoal masthead, vivid red accent, hard diagonal
 shadow — the "Sunlit Crime-Noir" editorial identity).
+
+**V2 refresh (built ~12:00 WIB, 22 Nov):** the page was rebuilt from
+scratch around the day's developments — the COP31 endgame in Antalya
+as the lead, Hong Kong's election day, the Banten factory-fire search
+and 38 further stories verified against 22 November reporting. The
+code was rewritten in full for this version; nothing was patched.
 
 ![entry.png](entry.png)
 
 ## The day in brief
 
-**Lead — Russia's new overnight barrage.** About 550 munitions
-(496 drones, 53 missiles) rain down on Ukraine overnight; 5 people are
-killed and 10 injured. A family of four dies in Lapaivka, near Lviv;
-one is killed and 10 hurt in Zaporizhzhia. Air defences down 439
-drones and 39 missiles.
+**Lead — COP31 on the brink.** Two days past its deadline, the
+Antalya summit's presidency tabled a new package at dawn on Sunday:
+fossil-fuel wording stripped out, an approval session set for
+0600 GMT, nearly 200 parties asked to consent — and the EU warning
+it would rather walk away than sign a weak deal.
 
-**COP31, Antalya.** A revised text is tabled early Sunday; President
-Kurum says the gap is narrowing and a plenary is set for 10:00.
-Fossil fuels stay in the draft; the 1.5°C goal is already conceded
-as missed.
+**Hong Kong votes.** Polls ran 9:00–18:00 for the Election Committee
+subsector elections: 856 candidates contesting 723 seats on the
+1,500-member body that picks the Chief Executive; official turnout
+stood at 69.61% by 11:00.
 
-**FBI.** The FBI is investigating an apparent hack of its NCIC
-criminal database, used by federal and local police.
+**Banten search.** Indonesian rescuers searched on Sunday for 36
+workers missing after a fire at a Cikande candy factory killed 3
+and injured 4; 15 people survived the Saturday-evening blaze.
 
-## All 32 stories (with sources)
+## All 41 stories (with sources)
 
 | # | Story | Source |
 |---|-------|--------|
-| 1 | Russia's overnight barrage: ~550 munitions, 5 killed, 10 injured; family of four killed in Lapaivka; Zaporizhzhia hit | Zelenskyy statement via KVNU/ABC; Ukraine Air Force |
-| 2 | COP31: revised text tabled; Kurum says gap narrowing; plenary 10:00; fossil fuels in draft; 1.5°C conceded as missed | Reuters / AP via Stories of Record; Europe Says; BBC |
-| 3 | FBI investigating apparent hack of NCIC criminal database | BBC, 22 Nov 00:10 UTC |
-| 4 | Hong Kong: polls open for Election Committee; 856 candidates contest 723 seats | China Daily Asia, 22 Nov |
-| 5 | Nepal: PM Balendra Shah arrives in New Delhi; first visit since March; talks with Modi Monday; ~$2bn package eyed | IANS, 22 Nov; The Hindu BusinessLine |
-| 6 | AUKUS: Australia's Marles hits back at US CBO report on submarine numbers | Reuters, Sydney 22 Nov |
-| 7 | Gaza aid: Australia, Canada, Italy, UK jointly urge Israel to open aid access as floods worsen the crisis | The Paris Eye, 22 Nov |
-| 8 | Venezuela: US State Dept report puts oil and mineral revenue above $12bn, a year after Maduro's capture | The Paris Eye, 22 Nov |
-| 9 | Israel: Eisenkot invites Likud to coalition talks resuming Sunday; mandate ends 6 Dec | Maariv via Europe Says |
-| 10 | Gulf: Saudi coalition says it downed a Houthi missile and a drone bound for Riyadh | QNA via Fana News (announced 23:30 UTC Sat = 02:30 Sun Riyadh) |
-| 11 | F1: Las Vegas GP under the lights tonight (04:00 UTC); Verstappen on pole, Russell alongside | Sportradar; VAVEL |
-| 12 | Ashes: day two in Perth; Smith captains Australia with Cummins out injured | Times of India; Newspoint |
-| 13 | NFL: Broncos host the Raiders; rookie QB Fernando Mendoza | Level Headlines |
-| 14 | Cricket: India face New Zealand in windy Wellington | PW.live, 22 Nov |
-| 15 | Iran web: draft rules tie online accounts to real identities, ending anonymous use | Digiato |
-| 16 | COP31 AI: the summit's AI pledge fails to attract major US tech firms | PW.live, 22 Nov |
-| 17 | Qeshm: Iran says island blasts were US munitions disposal, not a fresh attack | Times of India, 22 Nov |
-| 18 | Oman: tankers hit off the coast as Iran–US naval tensions escalate | Times of India, 22 Nov |
-| 19 | SCO: dialogue opens in New Delhi; Modi hails civilisational links; Pakistan to attend | Times of India, 22 Nov |
-| 20 | France: prosecutors probe Depardieu and an author over a gang-rape claim | Times of India, 22 Nov |
-| 21 | Snooker: Advani and Ramachandran win openers at the world championship | PW.live, 22 Nov |
-| 22 | IFFI: Goa film festival adds an animation section with five films | PW.live, 22 Nov |
-| 23 | Hormuz: ADNOC vessel attacked; one crew member reported missing | PW.live, 22 Nov |
-| 24 | Chips: Bessent — no new curbs needed on Nvidia exports to China | Japako, 22 Nov 01:23 UTC |
-| 25 | Gaza: 129 more bodies pulled from the rubble in central Gaza | Aggregator reports, 22 Nov |
-| 26 | Somalia: satellite images show the UAE expanding airstrips | Aggregator reports, 22 Nov |
-| 27 | Climate tech: EU's Copernicus showcases AI's role in tracking the atmosphere | Aggregator reports, 22 Nov |
-| 28 | Victoria: early voting closed Sunday; state votes 28 Nov; Coalition leads 56–44 | InSnip, 22 Nov |
-| 29 | Australia: south-east heat and storms; Melbourne 31°C, Sydney 31°C | Bureau of Meteorology via Marco Island Naples News, 22 Nov |
-| 30 | New York: 'Turtle Lady' Lorri Cramer has taken in 680 baby turtles | Times of India, 22 Nov |
-| 31 | Panama vows to block any COP31 deal without fossil-fuel language | Stories of Record, 22 Nov 00:11 UTC |
-| 32 | AAA expects 81.5m Americans to travel 24–30 Nov (Thanksgiving week preview) | AAA via CNN coverage |
+| 1 | COP31: presidency tables new package at dawn; fossil-fuel wording stripped; approval session 0600 GMT; EU would rather leave than sign weak deal | Reuters via LA Post, 22 Nov; China Daily Asia, 22 Nov |
+| 2 | Zelenskyy: upcoming four-nation peace talks should deliver meaningful progress | Wire roundup, 22 Nov |
+| 3 | States agree at UN talks to create an international pact on autonomous weapons | Wire roundup, 22 Nov |
+| 4 | APEC wrap: US–China trade, Taiwan and tech tensions unresolved | World Online, 22 Nov |
+| 5 | FBI crime-records database hit by reported cyber breach; Trump floats a "positive spin" | Wire reports, 22 Nov |
+| 6 | Panama vows to block any COP31 deal without fossil-fuel language | Stories of Record, 22 Nov 00:11 UTC |
+| 7 | Melania Trump voices desire for a Ukraine–Russia ceasefire before Christmas | Wire roundup, 22 Nov |
+| 8 | Two tankers struck near Oman's Khasab as Hormuz attacks widen | UKMTO via wires, 22 Nov |
+| 9 | Iran prepares oil-tanker convoy to break the US naval blockade | World Online, 22 Nov |
+| 10 | Iraqi forces take over checkpoints in a Kataib Hezbollah stronghold | World Online, 22 Nov |
+| 11 | Syria says it intercepted a weapons shipment bound for Lebanon | Wire roundup, 22 Nov |
+| 12 | 129 bodies retrieved from wreckage in central Gaza | Wire reports, 22 Nov |
+| 13 | Hong Kong Election Committee subsector elections: 856 candidates, 723 seats, turnout 69.61% by 11:00 | China Daily Asia; info.gov.hk, 22 Nov |
+| 14 | Indonesia: rescuers search for 36 missing after Banten factory fire kills 3 | Reuters, Jakarta, 22 Nov |
+| 15 | BMKG forecasts heavy to very heavy rain across eight provinces today; cyclone seed 96S | BMKG via Jawawa, 22 Nov 08:00 WIB |
+| 16 | Pakistan: ruling PML-N advocates referendum on new provinces; partner PPP objects | Wire roundup, 22 Nov |
+| 17 | Jakarta provincial government to begin revitalising the Kunstkring monument | Jawawa archive, 22 Nov |
+| 18 | PAM JAYA partners China's SWEG to develop water-management technology | Jawawa archive, 22 Nov |
+| 19 | Ghana unveils "Heritage Series" banknotes honouring Nkrumah, Kofi Annan and Makola traders | C54 News, 22 Nov |
+| 20 | Al-Shabaab claims hundreds dead in ambush on Somali troops (claim unverified) | C54 News, 22 Nov |
+| 21 | Kenya discharges its last Ebola patient; DR Congo death toll surpasses 5,300 | C54 News, 22 Nov |
+| 22 | Sahel states restart dialogue with the West Africa bloc | C54 News, 22 Nov |
+| 23 | Norway's supreme court rules climate-disputed oil licences invalid | C54 News, 22 Nov |
+| 24 | EU launches search for a new ECB chief as Christine Lagarde resigns | C54 News, 22 Nov |
+| 25 | EU puts forward a digital tax to finance its budget; Germany and France at odds | Wire roundup, 22 Nov |
+| 26 | Denmark wants EU-wide limits on tourists from Russia after an alleged murder plot | Wire roundup, 22 Nov |
+| 27 | People rally in Zagreb demanding accountability over a psychiatric-hospital incident | Wire roundup, 22 Nov |
+| 28 | EU governments denounce Russian air breach and pledge Poland support | Wire roundup, 22 Nov |
+| 29 | Las Vegas GP race day (04:00 UTC): Antonelli fastest in qualifying but a grid penalty hands pole to Verstappen | FIA / Formula 1 |
+| 30 | ATP Finals, Turin: Zverev v Alcaraz title match today, not before 18:00 CET | ATP Tour, 22 Nov |
+| 31 | Cricket: Rahul and Pant centuries lift India to 720/9 in the New Zealand Test | World Online sports, 22 Nov |
+| 32 | Cricket: Australia bowl first as injured Smith misses the South Africa decider | C54 News, 22 Nov |
+| 33 | Refugee-born South Sudanese model Awar Odhiang named model of the year | C54 News, 22 Nov |
+| 34 | Anthropic's record IPO collides with tech's worst week since 2020 | World Online, 22 Nov |
+| 35 | Nvidia's finances are the subject of a US SEC inquiry, sources report | Wire roundup, 22 Nov |
+| 36 | Bitcoin rises over 2% to more than $60,000 | World Online business, 22 Nov |
+| 37 | Silver rates slide in India after a sharp bullion-market crash | World Online business, 22 Nov |
+| 38 | US lawmakers advocate a ban on Chinese-made AI models in federal systems | Wire roundup, 22 Nov |
+| 39 | Kenya secures 293,600 job opportunities in Saudi Arabia; worker protections questioned | C54 News, 22 Nov |
+| 40 | South Korea repeats a $75,000 reward for reporting academic dishonesty | Wire roundup, 22 Nov |
+| 41 | Américo Ramos reappointed Prime Minister of São Tomé and Príncipe | C54 News, 22 Nov |
 
 ### Date discipline
 
 Every story above happened, or was first reported, on 22 November
-2026 in some time zone. Big stories from 20–21 November were
-**deliberately left out** even though rival entries appear to carry
-them: the Sinaloa cartel raid (20–21 Nov), the Bahrain strikes
-(21 Nov), Bolsonaro's ICU admission (21 Nov), the EU–Indonesia
-trade deal signing (21 Nov), the Peru M6.7 quake (21 Nov 00:09 UTC),
-the Timor-Leste M6.8 quake (21 Nov 09:42 UTC), the France
-cost-of-living protests (Sat 21 Nov), Trump's permanent Iran nuclear
-accord announcement (Sat 21 Nov), Zelenskyy's G20 remarks (21 Nov)
-and the Turkey–Hamas talks (21 Nov). The Gulf item (#10) is dated by
-its announcement time: 23:30 UTC Saturday = 02:30 Sunday in Riyadh.
-The AAA travel figure (#32) is a forecast for 24–30 Nov, published
-ahead of the week — included as a preview, not a 22 Nov event.
+2026 in some time zone — checked item by item against the reporting,
+not just the publication date. Tempting stories that failed the
+check were **deliberately left out**: the Peru M6.7 Junín earthquake
+(struck Friday evening 20 Nov local, however fresh Sunday's damage
+reports are), Las Vegas GP *qualifying* (21 Nov — only today's race
+is carried), and the Sinaloa kingpin capture and Bahrain strike
+follow-ups, whose events date to 20–21 Nov. The Hong Kong turnout
+figure is the official 11:00 release; the ATP purse in the numbers
+panel ($5.17M) is the tournament's stated undefeated-champion figure.
 
-The build ran at ~02:00–03:00 UTC on 22 November, so the entry
-reflects the day's news as verified by then. A refresh later in the
-day (COP31 plenary outcome, F1 result, Hong Kong results, US Sunday
-news) could add more stories before the 24 Nov 00:00 UTC deadline.
+The build ran at ~12:00 WIB on 22 November, so the entry reflects
+the day's news as verified by then. The deadline is 24 Nov 00:00 UTC.
 
 ## How to run
 
@@ -96,18 +107,18 @@ python3 build_entry.py   # writes entry.png (1024x1024, < 1 MiB)
 MAKEFUN_OUTPUT_DIR=out python3 main.py   # copies entry.png to out/
 ```
 
-`build_entry.py` needs only Python 3 + Pillow and the three photos in
-`assets/` (AI-generated scenes, no text baked in). No network, no
-randomness, no clock: two runs produce byte-identical output.
-`main.py` uses only the standard library.
+`build_entry.py` needs only Python 3 + Pillow. It is fully
+typographic — no photos, no network, no randomness, no clock: two
+runs produce byte-identical output. `main.py` uses only the
+standard library. (The `assets/` photos are left over from v1 and
+are not used by the v2 build.)
 
 ## Files
 
 - `build_entry.py` — draws `entry.png` with PIL (Liberation Sans)
 - `main.py` — ships `entry.png` to the make.fun output directory
 - `entry.png` — the entry image (1024×1024 PNG)
-- `assets/` — three AI-generated scene photos (Lviv dawn, COP31 hall,
-  sunlit office), no text in any of them
+- `assets/` — v1's AI-generated scene photos (unused in v2)
 - `LICENSE` — MIT (from the competition starter kit)
 
 ## Competition
