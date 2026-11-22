@@ -1,35 +1,42 @@
-#!/usr/bin/env python3
-"""Ship the built entry image to the make.fun output directory.
+"""Entrypoint for the news-image entry.
 
-Copies ``entry.png`` (produced by ``build_entry.py``) into the directory
-named by the ``MAKEFUN_OUTPUT_DIR`` environment variable (default
-``./out``), creating it if needed. The copy is byte-for-byte identical
-to the built image, so the shipped file is deterministic too.
-
-No network access, no randomness, no clock: only the standard library.
-
-Usage:
-    MAKEFUN_OUTPUT_DIR=out python3 main.py
+Copies the bundled ``entry.png`` next to this script into the output
+directory requested by the ``MAKEFUN_OUTPUT_DIR`` environment variable
+(``./out`` when unset), byte-for-byte, and reports what it did.
 """
 
+from __future__ import annotations
+
 import os
-import shutil
-import sys
-
-HERE = os.path.dirname(os.path.abspath(__file__))
-ENTRY = os.path.join(HERE, "entry.png")
+from pathlib import Path
 
 
-def main():
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "./out")
-    if not os.path.isfile(ENTRY):
-        print(f"entry.png not found at {ENTRY}; run build_entry.py first",
-              file=sys.stderr)
+def locate_source() -> Path:
+    """Return the path of the entry image sitting beside this script."""
+    here = Path(__file__).resolve().parent
+    return here / "entry.png"
+
+
+def locate_destination_dir() -> Path:
+    """Return the output directory from the environment, defaulting to ./out."""
+    raw = os.environ.get("MAKEFUN_OUTPUT_DIR") or "./out"
+    return Path(raw).expanduser()
+
+
+def main() -> int:
+    source = locate_source()
+    if not source.is_file():
+        print(f"error: entry image not found: {source}")
         return 1
-    os.makedirs(out_dir, exist_ok=True)
-    dest = os.path.join(out_dir, "entry.png")
-    shutil.copyfile(ENTRY, dest)
-    print(f"copied {ENTRY} -> {dest} ({os.path.getsize(dest)} bytes)")
+
+    dest_dir = locate_destination_dir()
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    destination = dest_dir / source.name
+
+    data = source.read_bytes()
+    destination.write_bytes(data)
+
+    print(f"copied {source} -> {destination} ({len(data)} bytes)")
     return 0
 
 
